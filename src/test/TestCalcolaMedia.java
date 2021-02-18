@@ -37,6 +37,6 @@ public class TestCalcolaMedia {
 		example.add(42);
 		example.add(51);
 		example.add(92);
-		assertEquals(93/2,(int)foo.mediaLista(example, 1));
+		assertEquals(93.0/2,foo.mediaLista(example, 1),0.05);
 	}
 }
